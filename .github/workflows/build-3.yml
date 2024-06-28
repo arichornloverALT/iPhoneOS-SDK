@@ -15,7 +15,7 @@ jobs:
           bash build-3.sh
           
       - name: Upload release
-        uses: svenstaro/upload-release-action@2.2.1
+        uses: svenstaro/upload-release-action@2.9.0
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: xcode/*.tar.xz
