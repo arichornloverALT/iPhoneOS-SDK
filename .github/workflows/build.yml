@@ -10,8 +10,8 @@ jobs:
     steps:
       - run: |
           mkdir -p xcode
-          wget https://github.com/growtopiajaw/iPhoneOS-SDK/raw/master/build.sh
-          wget https://github.com/growtopiajaw/iPhoneOS-SDK/raw/master/macos-10.15.txt
+          wget https://github.com/arichornloverALT/iPhoneOS-SDK/raw/master/build.sh
+          wget https://github.com/arichornloverALT/iPhoneOS-SDK/raw/master/macos-10.15.txt
           bash build.sh
           
       - name: Upload release
